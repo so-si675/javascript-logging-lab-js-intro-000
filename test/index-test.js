@@ -1,4 +1,4 @@
-console.error ("help!")
+console.error ("HALP!")
 learn test
 const expect = require('expect')
 const fs = require('fs')
