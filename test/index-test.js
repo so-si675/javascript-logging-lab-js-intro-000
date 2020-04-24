@@ -42,7 +42,9 @@ describe('index', () => {
       expect(spy).toHaveBeenCalled('expected console.warn to have been called')
       console.warn.restore()
       done()
+      ```js
     })console.error("HALP!")
+    ```
+
   })
 })
-learn test
