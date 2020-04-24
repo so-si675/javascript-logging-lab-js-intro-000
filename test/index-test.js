@@ -1,5 +1,4 @@
-console.error ("HALP!")
-learn test
+
 const expect = require('expect')
 const fs = require('fs')
 const jsdom = require('jsdom')
@@ -43,6 +42,6 @@ describe('index', () => {
       expect(spy).toHaveBeenCalled('expected console.warn to have been called')
       console.warn.restore()
       done()
-    })
+    })console.error("HALP!")
   })
 })
