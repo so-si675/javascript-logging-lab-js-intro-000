@@ -45,5 +45,5 @@ describe('index', () => {
       ```js
       console.error()
     })
-    
+
 })
