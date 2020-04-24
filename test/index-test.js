@@ -43,8 +43,7 @@ describe('index', () => {
       console.warn.restore()
       done()
       ```js
-    })console.error("HALP!")
-    ```
-
-  })
+      console.error()
+    })
+    
 })
